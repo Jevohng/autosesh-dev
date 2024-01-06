@@ -1,0 +1,220 @@
+/* This is a comment in CSS */
+
+/* Define styles for the body element */
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Define styles for headings */
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+/* Define styles for links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Define a class for buttons */
+.button {
+    background-color: #212B30;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #212B30;
+}
+
+
+/* Style the links inside the sidebar */
+
+
+/* Change the color of links when hovered over */
+
+
+.container {
+    height: 100%; /* Full height of the viewport */
+    width: 230px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed sidebar */
+    top: 0; /* Place the sidebar at the top of the page */
+    left: 0;
+    background-color: #212B30; /* Background color of the sidebar */
+    padding-top: 0px; /* Add some top padding */
+}
+
+/* Style the logo */
+.logo {
+    align-items: center;
+    height: 60px;
+    flex: 1;
+    text-align: center;
+    background-color: #212B30;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 2;
+    margin-bottom: 0px;
+}
+
+.logo img {
+    align-content: center;
+    max-width: 60%; /* Ensure the logo doesn't exceed its container's width */
+    max-height: 80px; /* Set a maximum height for the logo */
+    margin-top: 8px;
+    margin-left: -10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.sidenav li{
+    padding: 16px 16px; /* Add padding to the links */
+    text-decoration: none; /* Remove text decoration */
+    font-size: 14px; /* Set the font size for links */
+    color: white; /* Text color */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-block; /* Make the links block-level elements */
+    opacity: 0.5;
+
+
+}
+
+.sidenav li:hover {
+    opacity: 100%;
+    text-decoration: none;
+}
+
+ul li a{
+    text-align: left;
+    text-decoration: none; /* Remove text decoration */
+    font-size: 14px; /* Set the font size for links */
+    color: white; /* Text color */
+    font-style: normal;
+    font-weight: 500;
+    opacity: 0.5;
+    text-decoration: none;
+
+}
+
+ul li a:hover {
+        text-decoration: none;
+        opacity: 100%;
+    
+}
+
+.sidenav ul li {
+    display: flex;
+    align-items: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.sidenav ul li.active {
+    background: rgba(255, 255, 255, 0.05);
+    opacity: 100%;
+    border-left: 2px solid #FFCE44; /* 2px wide solid black border on the right side */
+    text-decoration: none;
+    position: ;
+    z-index: 1; 
+}
+
+
+.sidenav ul li i {
+    margin-right: 10px; /* Add spacing between the icon and text */
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidenav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    opacity: 0.5;
+    text-decoration: none;
+    margin-left: 8px; /* Add margin to the left of the text */
+}
+
+
+.material-icons{
+    height: 20px;
+    width: 20px;
+
+
+}
+
+.header {
+    background-color: #ffffff;
+    height: 60px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: space-between; /* Center content horizontally */
+    align-items: center; 
+
+
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.icon-container i {
+    font-size: 24px; /* Adjust the icon size as needed */
+    margin-left: auto; /* Push the icon to the right */
+    color: #595959;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

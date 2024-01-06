@@ -1,0 +1,16 @@
+{
+  "name": "autosesh-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dashboard.js",
+  "scripts": {
+    "start": "node dashboard.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.7.1"
+  }
+}

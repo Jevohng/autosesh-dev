@@ -1,0 +1,183 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 100px;
+}
+
+
+/* Define styles for headings */
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+/* Define styles for links */
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: text-decoration 0.8s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Apply basic styles to the login container */
+.login-container {
+    background-color: white;
+    padding: 40px;
+    width: 440px; /* Set a width to control the container's size */
+    margin: 0 auto; /* Center the container horizontally */
+    border: 0px solid;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+}
+
+/* Style the form labels */
+label {
+    display: block; /* Display labels as block-level elements */
+    margin-bottom: 10px; /* Add spacing between labels and input fields */
+}
+
+/* Style the form inputs */
+input[type="text"],
+input[type="password"] {
+    width: 400px; /* Make the input fields take up the full width of the container */
+    height: 20px;
+    padding: 10px;
+    margin-bottom: 16px; /* Add spacing between input fields and the button */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    background-color: #F2F2F2;
+}
+
+/* Style the login button */
+.primary-button {
+    width: 420px; /* Make the button take up the full width of the container */
+    height: 40px;
+    background-color: #212B30;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 32px;
+    margin-top: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Style the links below the form */
+p {
+    margin-top: 10px; /* Add spacing above the links */
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* Style the logo */
+img {
+    max-width: 70px; /* Set a maximum width for your logo */
+    height: auto; /* Maintain the aspect ratio */
+    margin-bottom: 40px; /* Add spacing below the logo */
+}
+
+.secondary-button{
+    width: 420px; /* Make the button take up the full width of the container */
+    height: 40px;
+    background-color: white;
+    color: 212B30;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #212B30;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    margin-top:16px;
+    transition: background-color 0.3s ease;
+
+}
+
+input{
+
+    box-shadow: none;
+
+}
+
+.secondary-button:hover{
+
+         background-color: #212B30;
+         color: white;
+         font-weight: 500;
+         
+
+
+}
+
+.primary-button:hover {
+        background-color: black;
+
+
+}
+
+hr {
+    margin-bottom: 24px;
+    border: 0.5px solid #ccc;
+    width: 420px;
+
+
+
+}
+
+.divider-text{
+    background-color: white;
+    width: 50px;
+    margin-top: -34px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+p {
+    color: #ccc;
+
+}
+
+input:focus {
+    border: 2px solid #0074D9;
+
+  
+}
+
+input:focus, textarea {
+    outline: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
